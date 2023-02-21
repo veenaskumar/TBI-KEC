@@ -7,37 +7,6 @@ body {
     font-family: 'Poppins', sans-serif;
 
 }
-
-.logo {
-
-    height: 110px;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center !important;
-    margin-left: 90px !important;
-    margin-right: 90px !important;
-    height: 110px;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-
-}
-
-.nav-items {
-    display: flex;
-    gap: 2rem;
-
-}
-
-.nav-items>div>a,
-.dropdown-menu>div>a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-
 /* .container {
     position: relative;
     text-align: center;
@@ -330,42 +299,6 @@ body {
 
     }
 
-    .logo {
-
-        height: 20px;
-        border: 1px solid black;
-        width: 90px;
-        display: none;
-        /* margin-top: 0px !important; */
-    }
-
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center !important;
-        margin-left: 10px !important;
-        margin-right: 10px !important;
-        height: 90px;
-        font-size: 14px;
-        font-family: 'Poppins', sans-serif;
-        display: none !important;
-
-
-    }
-
-    .nav-items {
-        display: flex;
-        gap: 0.5rem;
-        display: none !important;
-
-    }
-
-    .nav-items>div>a,
-    .dropdown-menu>div>a {
-        text-decoration: none;
-        color: black;
-        display: none !important;
-    }
 
     .body-img {
         position: relative;
@@ -654,9 +587,7 @@ body {
     .slider {
         border-radius: 20px;
     }
-
-
-
-
-
+}
+.btn-color{
+    background: linear-gradient(to left, #42a5f5, #86c9ff);
 }
