@@ -347,6 +347,9 @@ body {
         height: 300px !important;
         width: 300px;
     }
+    .head-about{
+        align-self: center;
+    }
 
     .thrust {
         height: 2500px !important;
