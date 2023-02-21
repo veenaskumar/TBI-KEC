@@ -1,0 +1,58 @@
+*,body{
+    margin: 0%;
+    padding: 0%;
+    font-size: 18px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Poppins', sans-serif;
+
+}
+.body-img>img {
+    filter: brightness(40%);
+}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center !important;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px solid green; */
+    /* font-family:'Times New Roman', Times, serif !important; */
+
+}
+.centered>h1{
+    font-weight: bolder;
+}
+.centered>div>p{
+    width: 800px;
+}
+.reg-but>button{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f7faff;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.container-text{
+    line-height: 2rem;
+}
+.nidhi-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
