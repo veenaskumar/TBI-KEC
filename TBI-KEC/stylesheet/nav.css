@@ -23,6 +23,7 @@
 	color: #000;
 }
 
+
 .navbar-container ul li .underline {
 	height: 2px;
 	background-color: transparent;
@@ -34,11 +35,11 @@
 
 .navbar-container ul li.active-link .underline {
 	width: 100%;
-    background-color: #000;
+    background-color:#4caaf7;
 }
 
 .navbar-container ul li:hover .underline {
-	background-color:#000;
+	background-color:#4caaf7;
 	width: 100%;
 }
 
@@ -89,7 +90,7 @@
 .modal-header .btn-close{
 
     background: transparent;
-    opacity: 1;
+    opacity: 2;
 }
 
 .modal-header i{
@@ -116,7 +117,7 @@
     margin-bottom: 50px;
     cursor: pointer;
     transition: all .5s ease;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #4caaf7;
 }
 
 
@@ -152,4 +153,10 @@
     justify-content: space-between;
     align-items: center;
     font-size: 25px;
+}
+
+
+.nav-move{
+    display: flex;
+    justify-content: space-between;
 }
