@@ -12,6 +12,7 @@
 .navbar-container ul li {
 	display: inline-block;
 	font-size: 16px;
+    font-weight: bolder;
 }
 
 .navbar-container ul li a {
