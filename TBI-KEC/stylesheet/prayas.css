@@ -1,7 +1,7 @@
 *,body{
     margin: 0%;
     padding: 0%;
-    font-size: 18px;
+    font-size: 14px;
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-family: 'Poppins', sans-serif;
 
@@ -33,30 +33,9 @@
     width: 800px !important;
     line-height: 2rem;
 }
-.reg-but>button{
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #f7faff;
-    border: none;
-    border-radius: 10px;
-    font-weight: bolder;
-}
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-}
-.container-text{
-    line-height: 2rem;
-}
-.nidhi-title{
-    text-align: center;
-    font-size: 30px;
-    font-weight: bolder;
-}
+
+
+
 @media only screen and (max-width: 840px) {
 
     *,
@@ -88,7 +67,7 @@
     .centered>h1 {
         position: absolute !important;
         width: 100%;
-        word-wrap: break-word;
+        /* word-wrap: break-word; */
         text-align: center;
         color: black;
         font-size: 20px !important;
@@ -120,23 +99,6 @@
         width: 300px !important;
         /* line-height: 2rem; */
     }
-    .reg-but>button{
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        background-color: #f7faff;
-        border: none;
-        border-radius: 10px;
-        font-weight: bolder;
-    }
-    .container{
-        display: flex;
-        align-items: center;
-        flex-direction: column-reverse;
-        justify-content: center;
-        gap: 2rem;
-        display: none;
-    }
-
+    
+    
 }

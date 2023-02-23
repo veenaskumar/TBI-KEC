@@ -1,3 +1,4 @@
+
 .navbar-container {
 	padding: 10px;
 	font-size: 0;
@@ -74,7 +75,7 @@
 
     .modal-dialog{
 
-        width: 82%;
+        width: 100%;
     }
 }
 
@@ -101,7 +102,7 @@
 
 .modal-body{
 
-    width: 88%;
+    width: 100%;
     margin: 0 auto;
     padding: 75px 0 0 0;
     flex: unset;

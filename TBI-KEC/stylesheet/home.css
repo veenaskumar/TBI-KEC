@@ -2,7 +2,7 @@
 body {
     margin: 0%;
     padding: 0%;
-    font-size: 18px;
+    font-size: 14px;
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-family: 'Poppins', sans-serif;
 
@@ -15,9 +15,13 @@ body {
     padding: inherit;
     margin: inherit;
 } */
-
+/* .thrust-area{
+    width: 100%;
+    padding: 0%;
+} */
 .body-img>img {
     filter: brightness(40%);
+    object-fit: cover;
 }
 
 .centered {
@@ -60,6 +64,9 @@ body {
     justify-content: space-between;
     grid-template-columns: auto auto auto;
     align-items: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    
 
 
 
@@ -69,8 +76,9 @@ body {
 .thrust-item {
     height: 200px;
     width: 300px;
-    margin-left: 90px !important;
-    margin-right: 90px !important;
+    /* margin-left: 90px !important; */
+    /* margin-right: 90px !important; */
+    
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background-color: white;
     border-radius: 15px;
@@ -90,6 +98,7 @@ body {
 
 .complete-thrust {
     background-color: #f7faff;
+    /* margin: 0%; */
 }
 
 .complete-thrust>div {
@@ -97,6 +106,7 @@ body {
     font-size: 30px;
     padding-top: 30px;
     font-weight: bold;
+    /* margin: 0%; */
 
 
 }
@@ -170,8 +180,8 @@ body {
 
 .flip-card {
     padding-top: 50px;
-    margin-left: 100px !important;
-    margin-right: 100px !important;
+    /* margin-left: 100px !important;
+    margin-right: 100px !important; */
     padding-bottom: 50px;
     height: 400px;
 }
@@ -369,6 +379,8 @@ body {
         grid-template-columns: auto;
         align-items: center;
         gap: 1rem;
+        /* padding-left: 20px;
+        padding-right: 20px; */
     }
 
     .thrust-item {
@@ -379,7 +391,7 @@ body {
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         background-color: white;
         border-radius: 15px;
-        border-radius: 10px !important;
+        /* border-radius: 10px !important; */
         /* border: 2px solid black !important; */
 
     }
@@ -399,6 +411,7 @@ body {
 
     .complete-thrust {
         background-color: #f7faff;
+        width: 100%;
     }
 
     .complete-thrust>div {
