@@ -43,7 +43,9 @@ body {
     font-size: 20px;
     line-height: 2.5rem;
 }
-
+.body-img>video{
+    object-fit: cover;
+}
 .about-us {
     display: flex;
     justify-content: space-between;
@@ -317,8 +319,7 @@ body {
         position: relative;
     }
 
-    .body-img>img {
-        filter: brightness(40%);
+    .body-img>video {
         height: 200px;
     }
 
