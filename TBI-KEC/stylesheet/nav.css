@@ -149,7 +149,7 @@
 .nav-footer{
 
     width: 18%;
-    margin: 0 auto;
+    margin-left: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -157,7 +157,4 @@
 }
 
 
-.nav-move{
-    display: flex;
-    justify-content: space-between;
-}
+
