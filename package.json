@@ -1,0 +1,23 @@
+{
+  "name": "tbi-kec",
+  "version": "1.0.0",
+  "description": "TBI inital page",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veenaskumar/TBI-KEC.git"
+  },
+  "author": "Idot.inc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veenaskumar/TBI-KEC/issues"
+  },
+  "homepage": "https://github.com/veenaskumar/TBI-KEC#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "install": "^0.13.0"
+  }
+}
