@@ -340,7 +340,7 @@ body {
 
     .text-about {
         width: 300px;
-        font-size: 18px;
+        font-size: 64px !important;
         line-height: 1.5rem;
     }
 
