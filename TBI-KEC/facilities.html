@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
   <link rel="stylesheet" href="./stylesheet/footer.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link
     href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Poppins:wght@300&family=Roboto:wght@500&display=swap"
     rel="stylesheet">
@@ -25,145 +26,141 @@
 
 <body>
   <!--navbar-->
-  <header> 
+  <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed ">
-        <div class="container-fluid">
-            <a class="navbar-brand" width href="./index.html"><img src="./images/TBI.png" alt="" width="160px"></a>
-            <div class="collapse navbar-collapse navbar-container" id="main_nav">
-                <ul class=" navbar-nav me-auto mb-2 mb-lg-0 ">
-                    <!-- <li class="nav-link active-link">
+      <div class="container-fluid">
+        <a class="navbar-brand" width href="./index.html"><img src="./images/TBI.png" alt="" width="160px"></a>
+        <div class="collapse navbar-collapse navbar-container" id="main_nav">
+          <ul class=" navbar-nav me-auto mb-2 mb-lg-0 ">
+            <!-- <li class="nav-link active-link">
                         <a href="#">Home
                         </a>
                         <div class="underline"></div>
                     </li> -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          About 
-                        </a>
-                        <div class="underline"></div>
-                        <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
-                          <li class="line" ><a class="dropdown-link " href="./about.html">Overview</a></li>
-                          <li class="line"><a class="dropdown-link " href="./about.html">Mentors</a></li>
-                          <li class="line"><a class="dropdown-link " href="./about.html">process</a></li>
-                          <li class="line"><a class="dropdown-link " href="./about.html">Activities</a></li>
-                          <li class="line"><a class="dropdown-link " href="./about.html">Services</a></li>
-                          <br>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown ">
-                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Funding
-                        </a>
-                        <div class="underline"></div>
-                        <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
-                          <li class="line"><a class="dropdown-link" href="#">Prayas</a></li>
-                          <li class="line"><a class="dropdown-link" href="./about.html">EDII-IVP</a></li>
-                          <li class="line"><a class="dropdown-link" href="#">Seed Fund</a></li>
-                          <li class="line"><a class="dropdown-link" href="./about.html">MSME</a></li>
-                          <br>
-                        </ul>
-                      </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./facilities.html">Infrastructure</a>
-                        <div class="underline"></div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact_us.html">Incubatee</a>
-                        <div class="underline"></div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Products</a>
-                        <div class="underline"></div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact_us.html">Contact</a>
-                        <div class="underline"></div>
-                    </li>
-                    
-                </ul>
-                <div class="nav-footer">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                About
+              </a>
+              <div class="underline"></div>
+              <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                <li class="line"><a class="dropdown-link " href="./about.html">Overview</a></li>
+                <li class="line"><a class="dropdown-link " href="./about.html">Mentors</a></li>
+                <li class="line"><a class="dropdown-link " href="./about.html">process</a></li>
+                <li class="line"><a class="dropdown-link " href="./about.html">Activities</a></li>
+                <li class="line"><a class="dropdown-link " href="./about.html">Services</a></li>
+                <br>
+              </ul>
+            </li>
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Funding
+              </a>
+              <div class="underline"></div>
+              <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                <li class="line"><a class="dropdown-link" href="#">Prayas</a></li>
+                <li class="line"><a class="dropdown-link" href="./about.html">EDII-IVP</a></li>
+                <li class="line"><a class="dropdown-link" href="#">Seed Fund</a></li>
+                <li class="line"><a class="dropdown-link" href="./about.html">MSME</a></li>
+                <br>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./facilities.html">Infrastructure</a>
+              <div class="underline"></div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact_us.html">Incubatee</a>
+              <div class="underline"></div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+              <div class="underline"></div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact_us.html">Contact</a>
+              <div class="underline"></div>
+            </li>
 
-                    <a target="_blank" href="https://www.instagram.com/kongutbi"><i class="fa-brands fa-instagram"
-                            style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
-                    <a target="_blank" href="https://www.linkedin.com/company/kongutbi/"><i
-                            class="fa-brands fa-linkedin-in"
-                            style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
-                    <a target="_blank" href="https://twitter.com/kongutbi"><i class="fa-brands fa-twitter"
-                            style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
-                    <a target="_blank" href="https://www.facebook.com/KonguTBI"><i class="fa-brands fa-facebook"
-                            style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
-                </div>
-            </div>
+          </ul>
+          <div class="nav-footer">
 
-
-            <!-- Button trigger modal -->
-            <div class="mobile-toggler d-lg-none">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#navbModal">
-                    <i class="fa fa-bars" style="font-weight: 1000; color: black; font-size: x-large;"></i>
-                </a>
-            </div>
-
-            <!-- Modal -->
-            <div class="modal fade" id="navbModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-
-                        <div class="modal-header">
-                            <img src="./images/TBI.png" alt="Logo">
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
-                                    class="fa-solid fa-xmark"
-                                    style="font-weight: 1000; color: black; font-size: x-large;"></i></button>
-                        </div>
-
-                        <div class="modal-body">
-
-                            <div class="modal-line">
-                                <a href="./index.html">Home</a>
-                            </div>
-
-                            <div class="modal-line">
-                                <a href="./about.html">About us</a>
-                            </div>
-
-                            <div class="modal-line">
-                                <a href="/cases">Cases</a>
-                            </div>
-
-                            <div class="modal-line">
-                                <a href="./prayas.html">prayas</a>
-                            </div>
-
-                            <div class="modal-line">
-                                <a href="/about">About</a>
-                            </div>
-
-
-                        </div>
-
-                        <div class="mobile-modal-footer">
-
-                            <a target="_blank" href="https://www.instagram.com/kongutbi"><i
-                                    class="fa-brands fa-instagram"
-                                    style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
-                            <a target="_blank" href="https://www.linkedin.com/company/kongutbi/"><i
-                                    class="fa-brands fa-linkedin-in"
-                                    style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
-                            <a target="_blank" href="https://twitter.com/kongutbi"><i class="fa-brands fa-twitter"
-                                    style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
-                            <a target="_blank" href="https://www.facebook.com/KonguTBI"><i
-                                    class="fa-brands fa-facebook"
-                                    style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <a target="_blank" href="https://www.instagram.com/kongutbi"><i class="fa-brands fa-instagram"
+                style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/company/kongutbi/"><i class="fa-brands fa-linkedin-in"
+                style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
+            <a target="_blank" href="https://twitter.com/kongutbi"><i class="fa-brands fa-twitter"
+                style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
+            <a target="_blank" href="https://www.facebook.com/KonguTBI"><i class="fa-brands fa-facebook"
+                style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
+          </div>
         </div>
+
+
+        <!-- Button trigger modal -->
+        <div class="mobile-toggler d-lg-none">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#navbModal">
+            <i class="fa fa-bars" style="font-weight: 1000; color: black; font-size: x-large;"></i>
+          </a>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="navbModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <div class="modal-header">
+                <img src="./images/TBI.png" alt="Logo">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                    class="fa-solid fa-xmark" style="font-weight: 1000; color: black; font-size: x-large;"></i></button>
+              </div>
+
+              <div class="modal-body">
+
+                <div class="modal-line">
+                  <a href="./index.html">Home</a>
+                </div>
+
+                <div class="modal-line">
+                  <a href="./about.html">About us</a>
+                </div>
+
+                <div class="modal-line">
+                  <a href="/cases">Cases</a>
+                </div>
+
+                <div class="modal-line">
+                  <a href="./prayas.html">prayas</a>
+                </div>
+
+                <div class="modal-line">
+                  <a href="/about">About</a>
+                </div>
+
+
+              </div>
+
+              <div class="mobile-modal-footer">
+
+                <a target="_blank" href="https://www.instagram.com/kongutbi"><i class="fa-brands fa-instagram"
+                    style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/company/kongutbi/"><i class="fa-brands fa-linkedin-in"
+                    style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
+                <a target="_blank" href="https://twitter.com/kongutbi"><i class="fa-brands fa-twitter"
+                    style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
+                <a target="_blank" href="https://www.facebook.com/KonguTBI"><i class="fa-brands fa-facebook"
+                    style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </nav>
-</header>
-  
+  </header>
+
   <div class="back">
-    <div class="card bg-dark text-white" class="background-img" style="filter: brightness(45%);">
+    <div class="card bg-dark text-white" class="background-img">
       <img src="https://sandpipercomms.com/wp-content/uploads/2021/08/shutterstock_1932042689-scaled.jpg"
         class="card-img" alt="..." width="100%" height="600PX">
       <div class="card-img-overlay">
@@ -183,10 +180,11 @@
   <div class="container mx-auto mt-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
     <div class="row">
       <div class="col-md-4">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 18rem;"  data-aos="zoom-out-right">
           <img
-            src="https://media.istockphoto.com/id/1441736772/vector/easy-to-use-flat-illustration-of-team.jpg?s=612x612&w=0&k=20&c=g8vbGP2UveMcEXuPF_tcfpK32YKmeNXXrM4lJpH2xr4="
+            src="./images/Ecommerce campaign.gif"
             class="card-img-top" alt="..." width="270" height="250">
+            
           <div class="card-body">
             <h5 class="card-title">Analytical Testing Facility</h5>
 
@@ -200,7 +198,7 @@
       <div class="col-md-4">
         <div class="card" style="width: 18rem;">
           <img
-            src="https://media.istockphoto.com/id/1032165070/vector/business-series-teamwork-and-collaboration-web-template.jpg?s=612x612&w=0&k=20&c=VjJVE2mNgzYAyi6J3qqEVDEDWoHuOlooqB4h60G-cdo="
+            src="./images/eco.gif"
             alt="..." width="270" height="250">
           <div class="card-body">
             <h5 class="card-title">Analytical Testing Facility</h5>
@@ -228,7 +226,54 @@
         </div>
       </div>
     </div>
+  </div> 
+  <h2 class="text-center fw-bolder">Analytical Testing Facility</h2>
+
+  <div
+    class="container d-flex flex-column justify-content-center align-item-center flex-lg-row justify-content-lg-between align-items-lg-center"
+    id="prayasLabimgCard">
+    <!-- <div class="container border border-5"> -->
+      <div class="img1" data-aos="fade-down-left">
+        <img src="./images/Group Chat.gif" alt="" height="400px" width="auto">
+      </div>
+    
+    <!-- </div> -->
+    <div class="text_size" data-aos="fade-right">
+      <div class="container lh-lg" id="equip-text">
+        
+        <p align="justify" class="fs-40">Now you can turn the Ultimaker S5 into a metal-printing workhorse. The
+          Ultimaker Metal Expansion Kit unlocks a simple workflow that makes exploring a new range of
+          stainless steel applications easier, more efficient, and more affordable.Easily 3D print larger
+          parts with world-leading material compatibility, an award-winning touch interface, and filament
+          run-out detection.</p> <br>
+      </div>
+    </div>
+    
   </div>
+  <div class="container-fluid" id="full-card"><br><br>
+    <h2 class="text-center fw-bolder">Analytical Testing Facility</h2>
+    <div class="container d-flex flex-column justify-content-center align-item-center flex-lg-row-reverse justify-content-lg-between align-items-lg-center"
+        id="prayasLabimgCard">
+        <!-- <div class="container border border-5"> -->
+          <div class="img1" data-aos="fade-down-left">
+            <img src="./images/Business merger.gif" alt=""
+            height="400px" width="auto">
+          </div>
+        
+        <!-- </div> -->
+        <div class="text_size" data-aos="fade-right">
+          <div class="container lh-lg" id="equip-text">
+            
+            <p align="justify" class="fs-40">Now you can turn the Ultimaker S5 into a metal-printing workhorse. The
+                Ultimaker Metal Expansion Kit unlocks a simple workflow that makes exploring a new range of
+                stainless steel applications easier, more efficient, and more affordable.Easily 3D print larger
+                parts with world-leading material compatibility, an award-winning touch interface, and filament
+                run-out detection.</p><br>
+            
+        </div>
+        </div>
+        
+    </div>
 
   <div class="hover">
     <a href="">TBI-INFRASTRUCTURE</a>
@@ -236,7 +281,7 @@
   </div>
 
 
-  <div class="infra">
+  <div class="infra" >
     <div class="wrapper">
 
       <div class="main-content">
@@ -410,65 +455,76 @@
   </div>
   <footer>
     <div class="container py-4 hi">
-        <div class="row">
-            <div class="col-lg-6 map">
-                <h2 class="contact-title text-capitalize text-white font-weight-light mb-sm-4 mb-3">our
-                    directions
-                </h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3912.9360010727178!2d77.600249!3d11.2661149!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba96d7c4c269e29%3A0x59fc34a434cc7ac2!2sKongu%20Engineering%20College%20Entrance!5e0!3m2!1sen!2sin!4v1675694873265!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <div class="conta-posi-w3ls p-4 rounded">
-                    <h5 class="text-white font-weight-bold mb-3">Address</h5>
-                    <p> Kongu Engineering College Campus
-                        <span>Perundurai – 638 060,</span> Erode, TamilNadu</p>
-                </div>
-            </div>
-            <div class="col-lg-6 contact-agileits-w3layouts mt-lg-0 mt-4">
-                <h4 class="contact-title text-capitalize text-white font-weight-light mb-sm-4 mb-3">get in
-                    touch
-                </h4>
-                <p class="conta-para-style border-left pl-4 text-white">If you have any questions about the services we provide simply use the form below. We try and respond to all queries
-                    and comments within 24 hours.</p>
-                    <br>
-                <div class="para-agileits-w3layouts text-white d-flex">
-                    <div><i class="fa-sharp fa-solid fa-location-dot"></i></div><div class="ps-1">Perundurai – 638 060, Erode, TamilNadu</div></div>
-                <div class="para-agileits-w3layouts text-white my-sm-3 my-2 d-flex">
-                    <div><i class="fa-solid fa-phone"></i></div>
-                    <div class="ps-1">+91-4294-226633, 226649, 226650</div>
-                </div>
-                <div class="para-agileits-w3layouts d-flex ">
-                    <div><i class="fa-solid fa-envelope"></i></div>
-                    <div class="ps-2"><a href="mailto:mail@example.com" class=" text-white text-decoration-none">info@example.com</a></div>
-                </div>
-                <div class="para-agileits-w3layouts d-flex ">
-                    <div><i class="fa-brands fa-instagram"></i></div>
-                    <div class="ps-2"><a href="https://www.instagram.com/kongutbi" class=" text-white text-decoration-none">kongutbi</a></div>
-                </div>
-                <br>
-                <div class="para-agileits-w3layouts d-flex ">
-                    <div><i class="fa-brands fa-linkedin-in"></i></div>
-                    <div class="ps-2"><a href="https://www.linkedin.com/company/kongutbi/" class=" text-white text-decoration-none"></a></div>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-lg-6 map">
+          <h2 class="contact-title text-capitalize text-white font-weight-light mb-sm-4 mb-3">our
+            directions
+          </h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3912.9360010727178!2d77.600249!3d11.2661149!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba96d7c4c269e29%3A0x59fc34a434cc7ac2!2sKongu%20Engineering%20College%20Entrance!5e0!3m2!1sen!2sin!4v1675694873265!5m2!1sen!2sin"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="conta-posi-w3ls p-4 rounded">
+            <h5 class="text-white font-weight-bold mb-3">Address</h5>
+            <p> Kongu Engineering College Campus
+              <span>Perundurai – 638 060,</span> Erode, TamilNadu
+            </p>
+          </div>
         </div>
+        <div class="col-lg-6 contact-agileits-w3layouts mt-lg-0 mt-4">
+          <h4 class="contact-title text-capitalize text-white font-weight-light mb-sm-4 mb-3">get in
+            touch
+          </h4>
+          <p class="conta-para-style border-left pl-4 text-white">If you have any questions about the services we
+            provide simply use the form below. We try and respond to all queries
+            and comments within 24 hours.</p>
+          <br>
+          <div class="para-agileits-w3layouts text-white d-flex">
+            <div><i class="fa-sharp fa-solid fa-location-dot"></i></div>
+            <div class="ps-1">Perundurai – 638 060, Erode, TamilNadu</div>
+          </div>
+          <div class="para-agileits-w3layouts text-white my-sm-3 my-2 d-flex">
+            <div><i class="fa-solid fa-phone"></i></div>
+            <div class="ps-1">+91-4294-226633, 226649, 226650</div>
+          </div>
+          <div class="para-agileits-w3layouts d-flex ">
+            <div><i class="fa-solid fa-envelope"></i></div>
+            <div class="ps-2"><a href="mailto:mail@example.com"
+                class=" text-white text-decoration-none">info@example.com</a></div>
+          </div>
+          <div class="para-agileits-w3layouts d-flex ">
+            <div><i class="fa-brands fa-instagram"></i></div>
+            <div class="ps-2"><a href="https://www.instagram.com/kongutbi"
+                class=" text-white text-decoration-none">kongutbi</a></div>
+          </div>
+          <br>
+          <div class="para-agileits-w3layouts d-flex ">
+            <div><i class="fa-brands fa-linkedin-in"></i></div>
+            <div class="ps-2"><a href="https://www.linkedin.com/company/kongutbi/"
+                class=" text-white text-decoration-none"></a></div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="copyright-agiles py-3">
-        <div class="container">
-            
-                <p class=" copy-right-grids text-white text-lg-left text-center mt-lg-1">© 2022 @TBI_KEC. All Rights Reserved | Design by
-                    <a >IDOT</a>
-                </p>
-                
-                <!-- <div class="social-icons text-lg-right text-center col-lg-4 mt-lg-0 mt-3 list">
+      <div class="container">
+
+        <p class=" copy-right-grids text-white text-lg-left text-center mt-lg-1">© 2022 @TBI_KEC. All Rights Reserved |
+          Design by
+          <a>IDOT</a>
+        </p>
+
+        <!-- <div class="social-icons text-lg-right text-center col-lg-4 mt-lg-0 mt-3 list">
                 <a target="_blank" href="https://www.instagram.com/kongutbi"><i class="fa-brands fa-instagram"></i></a>
                 <a target="_blank" href="https://www.linkedin.com/company/kongutbi/"><i class="fa-brands fa-linkedin-in"></i></a>
                 <a target="_blank" href="https://twitter.com/kongutbi"><i class="fa-brands fa-twitter"></i></a>
                 <a target="_blank" href="https://www.facebook.com/KonguTBI"><i class="fa-brands fa-facebook"></i></a>
                 </div> -->
 
-            
-        </div>
+
+      </div>
     </div>
-</footer>   
+  </footer>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
